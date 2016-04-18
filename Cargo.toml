@@ -1,0 +1,15 @@
+[package]
+name = "b2"
+version = "0.1.0"
+authors = ["Patrick Barrett <patrickbarrett@exosite.com>"]
+description = "A very simple program to xor images together."
+repository = "https://github.com/azdle/b2"
+readme = "README.md"
+keywords = ["crypto", "cryprography", "xor", "image"]
+license = "CC0-1.0"
+
+[dependencies]
+image = "0.9"
+rand = "0.3"
+docopt = "0.6"
+rustc-serialize = "0.3"
